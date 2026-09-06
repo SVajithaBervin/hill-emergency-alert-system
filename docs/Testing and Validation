@@ -1,0 +1,53 @@
+# Testing and Validation
+
+## Testing Approach
+
+The prototype was evaluated at hardware level using controlled/test inputs.
+
+The purpose was to verify whether the ESP32 firmware correctly responded to different predefined conditions.
+
+---
+
+## Functional Test Cases
+
+| Test | Input Condition | Expected Response | Status |
+|---|---|---|---|
+| Safe | Normal sensor condition | Green LED + SAFE on LCD | PASS |
+| Landslide | Vibration HIGH | Red LED + buzzer + LANDSLIDE alert | PASS |
+| Heavy Rain | Rain level above threshold | Yellow LED + warning buzzer | PASS |
+| SOS | SOS button activated | Red LED + fast buzzer + SOS alert | PASS |
+| Blynk | Cloud connection | Dashboard/alert communication | PASS |
+| ThingSpeak | Sensor data transmission | Time-series logging | PASS |
+
+---
+
+## Important Clarification
+
+These tests verify the programmed system response using controlled/test inputs.
+
+They do not represent long-term real-world environmental measurements collected from an actual hill location.
+
+---
+
+## Field Testing
+
+Actual field deployment was not completed during the initial project presentation.
+
+The evaluation feedback highlighted the importance of testing the vibration sensing mechanism in an actual soil/ground environment.
+
+This is considered a next-stage validation activity.
+
+---
+
+## Proposed Field Test
+
+A future field test should use:
+
+1. A suitable ground/soil vibration sensor
+2. A protective enclosure
+3. Water-resistant sealing
+4. Protected cable connections
+5. ESP32 control unit
+6. Data logging
+7. Controlled vibration experiments
+8. Long-duration environmental monitoring
