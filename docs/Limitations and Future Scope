@@ -1,0 +1,51 @@
+# Limitations and Future Scope
+
+## Current Limitations
+
+### 1. No Actual Hill Deployment
+
+The prototype was not deployed at an actual hill location during the initial project demonstration.
+
+### 2. No Soil-Based Vibration Validation
+
+The vibration sensor was not installed inside actual soil/ground conditions for field validation.
+
+### 3. Controlled Test Inputs
+
+The demonstrated alert responses were verified using controlled/programmed test conditions rather than long-term natural environmental data.
+
+### 4. Component Protection
+
+A field-deployable version requires a suitable protective and water-resistant enclosure before placing sensors/electronics in outdoor or soil environments.
+
+---
+
+## Future Scope
+
+### Soil-Based Vibration Monitoring
+
+A suitable ground vibration sensing arrangement can be developed for actual soil/ground testing.
+
+### Rugged Enclosure
+
+The electronics can be protected using an outdoor-rated enclosure with appropriate water, dust and mechanical protection.
+
+### LoRaWAN
+
+LoRaWAN can be explored for long-range communication in remote locations.
+
+### GPS
+
+GPS can be added to provide the location of an emergency event.
+
+### GSM/SMS
+
+GSM can provide an alternative notification mechanism.
+
+### Solar Power
+
+Solar and battery-based power can support longer outdoor operation.
+
+### Predictive Analytics
+
+Long-term sensor data can be used for future machine-learning-based risk analysis.
