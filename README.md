@@ -196,3 +196,13 @@ docs/        -> Project documentation
 diagrams/    -> Block and architecture diagrams
 screenshots/ -> Actual/reference output images
 media/       -> Supporting project documents
+
+
+## Evaluation Feedback
+
+During project evaluation, a key suggestion was to validate the system in an actual hill/soil environment, particularly by testing the vibration sensing mechanism under realistic ground conditions.
+
+This feedback highlighted an important transition from a working prototype to a field-deployable system.
+
+The proposed next step is to develop a protected outdoor sensing unit with appropriate soil/ground vibration sensing and conduct real-world field validation.
+
